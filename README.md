@@ -43,7 +43,7 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dictionary-app.git
+   git clone https://github.com/M311HAN/dictionary-app.git
     cd dictionary-app
     ```
 
