@@ -78,9 +78,8 @@ How the Program Works:
 
 To run the tests, use:
 
-    ```bash
-    npm test
-    ```
+npm test
+
 This will execute the snapshot and unit tests to ensure the components and fetch functionality work correctly.
 
 ## Components
