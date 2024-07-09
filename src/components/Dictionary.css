@@ -1,0 +1,103 @@
+/* Dictionary.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background for contrast */
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Cinzel", serif;
+  color: #d4af37; /* Gold color */
+  text-shadow: 1px 1px 1px #000; /* Black shadow */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #d4af37; /* Gold color */
+  color: white;
+  cursor: pointer;
+  font-family: "Cinzel", serif;
+  text-shadow: 1px 1px 2px #000; /* Black shadow */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+button:hover {
+  background-color: #b08930; /* Darker gold */
+}
+
+p {
+  margin: 10px 0;
+}
+
+.definition-container,
+.example-container {
+  padding: 0 20px; /* Add padding to the left and right */
+  text-align: center; /* Keep text centered */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    text-shadow: 0.5px 0.5px 1px #000; /* Smaller shadow on mobile */
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .definition-container,
+  .example-container {
+    padding: 0 10px; /* Reduce padding on smaller screens */
+  }
+
+  input[type="text"],
+  button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+}
