@@ -76,9 +76,9 @@ How the Program Works:
 
 * Error Handling: If there is an issue fetching the data (e.g., network error, invalid API key, or word not found), an error message will be displayed to inform you of the issue.
 
-To run the tests, use:
+- To run the tests, use:
 
-npm test
+### `npm test`
 
 This will execute the snapshot and unit tests to ensure the components and fetch functionality work correctly.
 
